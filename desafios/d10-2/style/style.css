@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+
+:root{
+    --cor0:#53d8ab69;
+}
+
+body{
+    background-color: aquamarine;
+}
+
+header{
+    text-align: center;
+    color: black;
+    background-color: #26eeee;  
+}
+
+header > h1{
+    margin: auto;
+}
+
+header > p {
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+nav{
+    margin: auto;
+    background-color: #26eeee;
+}
+
+nav > a:hover{
+    background-color: steelblue;
+}
+
+main{
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    border-radius: 5px;
+    min-width: 300px;
+    max-width: 1000px;
+    text-indent: 15px;
+}
+
+main h1, h2, h3{
+    background-image: linear-gradient(to right, var(--cor0), transparent);
+    color: steelblue;
+}
+
+

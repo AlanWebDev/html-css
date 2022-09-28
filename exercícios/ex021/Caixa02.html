@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: cornflowerblue;
+            margin: 0px;
+        }
+        header{
+            background-color: rgb(10, 190, 214);
+            padding: 10px;
+            margin: 10px;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 2px;
+            margin: 0px;
+        }
+        article{
+            background-color: white;
+            color: rgb(0, 0, 0);
+
+        }
+        article > aside{
+            background-color: rgb(17, 16, 16);
+            color: white;
+        }
+        a:hover{
+            text-decoration: none;
+            color: red;
+
+        }
+        a{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#" target="_blank">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+
+        </nav>
+
+    </header>
+    <main>
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre tututu</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint tempora totam libero aliquam corrupti at dignissimos nihil, iusto nisi. Ex non reprehenderit deleniti esse sed pariatur ipsa commodi libero itaque.</p>
+                <aside>
+                    <p>Artigo escrito por tananananm</p>
+                </aside>
+
+
+            </article>
+            <article>
+
+            </article>
+
+
+        </section>
+        <section id="assuntos">
+            <p><a href="">Educação</a> <a href="">saúde</a> <a href="#">economia</a></p>
+
+        </section>
+
+
+
+
+
+    </main>
+    <footer>
+        <p>Desenvolvido pelo CursoemVideo</p>
+
+    </footer>
+</body>
+</html>
