@@ -1,7 +1,27 @@
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Cordel' ;
+    src: url('fontes/Cordel\ Encarnado.otf')
+    ;
+}
+
+header{
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+    background-color: black;
+    height: 290px;
+    font-size: 3em;
+}
+
+section p {
+    font-size: 22px;
 }
 
 section{
@@ -30,5 +50,27 @@ section:nth-of-type(4){
 .branco{
     
 color: white;
-background-color: rgba(20, 20, 20, 0.425);
+background-color: rgba(20, 20, 20, 0.582);
+width: 300px;
+
+font-family: 'Cordel';
+}
+
+footer{
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-weight: 100;
+    font-size: 20px;
+    height: 40px;
+    padding-top: 5px;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
 }
