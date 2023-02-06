@@ -45,6 +45,7 @@ section{
     height: 60vw;
     text-align: justify;
     padding: 40px 4%;
+    padding-bottom: 2em;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -53,9 +54,10 @@ section{
     font-family: 'Cordel' ;
 }
 
-section p {
+section  p {
     font-size: 22px;
     font-weight: bolder;
+    
 }
 
 section:nth-of-type(2){
