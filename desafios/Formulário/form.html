@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="titulo">Cadastre-se</h1>
+    <p id="subtitulo">Insira seus dados abaixo</p>
+
+
+    <Form>
+        <fieldset>
+            <div class="Campo">
+                <Strong><Label>Nome</Label></Strong>
+                <input type="text" name="Nome" id="Nome" required>
+                <Strong><label for="sobrenome">Sobrenome</label></Strong>
+                <input type="text" name="sobrenome" id="sobrenome">
+            </div>
+        </fieldset>
+        <fieldset>
+            <div class="Campo">
+                <Strong><Label>Email</Label></Strong>
+                <input type="email" name="email" id="email" required>
+              <Strong><Label>Confirmar Email</Label></Strong>
+                <input type="email" name="email" id="email">
+        
+            </div>
+        </fieldset>
+            <div class="Campo">
+                <Strong><Label>Data de nascimento</Label></Strong>
+                <input type="date" name="data" id="data">
+            </div>
+            <div class="Campo">
+                <Strong><Label>Senha</Label></Strong>
+                <input type="password" name="senha" id="senha">
+                <Label><Strong>Confirmar senha</Strong></Label>
+                <input type="password" name="senha" id="senha">
+            </div>
+        <button type="submit" onsubmit="" class="Botão" >Enviar</button>
+    </Form>
+
+    <p><Strong>Já possui uma conta?</Strong> <a href="Login.html">Entre aqui</a></p>
+</body>
+</html>
