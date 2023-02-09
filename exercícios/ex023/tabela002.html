@@ -20,13 +20,23 @@
         }
 
         thead, tfoot{
-            background-color: rgb(61, 60, 60);
+            background-color: #3d3c3c;
             color: white;
+        }
+
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: #3d3c3c;
         }
 
         td, th{
             border: 1px solid black;
             padding: 10px;
+        }
+
+        Tbody > tr:nth-child(2n){
+            background-color: lightgray;
         }
 
         .num{
@@ -51,8 +61,10 @@
     <table>
         <caption>População das unidades federativas</caption>
         <thead>
-            <th scope="col">Estado</th>
-            <th scope="col">População</th>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
+            </tr>
         </thead>
 
         <tbody>
